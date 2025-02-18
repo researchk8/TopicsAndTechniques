@@ -1,0 +1,12 @@
+# Abbreviations
+- Graph-based vector search (GVS)
+- approximate nearest neighbor (ANN)
+- knowledge organisation systems (KOS)
+- Resource Description Framework (RDF) 
+- K nearest neighbors (KNN)
+- Queries per second (QPS)
+- Generative Pre-trained Transformer (GPT)
+- Natural language processing (NLP)
+- Natural language understanding (NLU) 
+- Large Language Models (LLMs)
+- Global Positioning System (GPS) 
