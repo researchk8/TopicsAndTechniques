@@ -30,7 +30,8 @@ Retrieval and generation: the actual RAG chain, which takes the user query at ru
 ## Other RAG techniques
 
 ### Vanilla RAG
-https://lancedb.github.io/lancedb/rag/vanilla_rag/
+- https://lancedb.github.io/lancedb/rag/vanilla_rag/
+- https://colab.research.google.com/github/lancedb/vectordb-recipes/blob/main/tutorials/RAG-from-Scratch/RAG_from_Scratch.ipynb
 
 ### Multi-head RAG
 
