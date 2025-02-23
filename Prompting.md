@@ -7,6 +7,7 @@ See:
 ## Tools
 - https://github.com/mingkaid/rl-prompt (Accompanying repo for the RLPrompt paper)
 - https://github.com/Eladlev/AutoPrompt (A framework for prompt tuning using Intent-based Prompt Calibration)
+- https://github.com/promptfoo/promptfoo (Test your prompts, agents, and RAGs. Red teaming, pentesting, and vulnerability scanning for LLMs. )
 
 ## Datasets
 - https://huggingface.co/datasets/fka/awesome-chatgpt-prompts

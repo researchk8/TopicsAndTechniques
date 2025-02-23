@@ -3,3 +3,31 @@ Ein Multiagentensystem (MAS) ist ein System, in dem mehrere Agenten miteinander 
 
 # Resources
 - https://getstream.io/blog/multiagent-ai-frameworks/
+
+## Frameworks
+
+### AutoGen
+https://github.com/microsoft/autogen
+
+
+
+## Platforms
+
+### LlamaIndex
+https://docs.llamaindex.ai/en/stable/understanding/agent/
+
+### Multi-Agent Orchestrator
+https://awslabs.github.io/multi-agent-orchestrator/general/introduction/
+
+### LangFlow
+https://docs.langflow.org/agents-overview
+
+### Semantic Kernel
+https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/?pivots=programming-language-csharp
+
+### Vertex AI
+https://cloud.google.com/vertex-ai
+
+
+# Resources
+- https://beam.ai/agents
