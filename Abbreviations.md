@@ -10,3 +10,5 @@
 - Natural language understanding (NLU) 
 - Large Language Models (LLMs)
 - Global Positioning System (GPS) 
+- Personally Identifiable Information (PHI)
+- Open Container Initiative (OCI)

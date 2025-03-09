@@ -22,3 +22,17 @@ See
 ### text-embedding-3-large (OpenAI)
 
 ### text-ada-002 (OpenAI)
+
+## Embedders
+
+
+    OpenAI
+    Gemini
+    Ollama
+    Voyage AI
+    Azure OpenAI
+    Mistral
+    Fireworks
+    Together
+    HuggingFace
+    Qdrant FastEmbed

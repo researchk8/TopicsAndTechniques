@@ -18,6 +18,17 @@ Retrieval and generation: the actual RAG chain, which takes the user query at ru
 - Generate: A ChatModel / LLM produces an answer using a prompt that includes both the question with the retrieved data
 
 
+## Paradigms
+
+### Naive RAG
+The Naive RAG research paradigm represents the earliest methodology, which gained prominence shortly after the widespread adoption of ChatGPT. The Naive RAG follows a traditional process that includes indexing, retrieval, and generation, which is also characterized as a “Retrieve-Read” framework.
+
+### Advanced RAG
+Advanced RAG introduces specific improvements to overcome the limitations of Naive RAG. Focusing on enhancing retrieval quality, it employs pre-retrieval and post-retrieval strategies. To tackle the indexing issues, Advanced RAG refines its indexing techniques through the use of a sliding window approach, fine-grained segmentation, and the incorporation of metadata.
+
+### Modular RAG
+The modular RAG architecture advances beyond the former two RAG paradigms, offering enhanced adaptability and versatility. It incorporates diverse strategies for improving its components, such as adding a search module for similarity searches and refining the retriever through fine-tuning.
+
 ## Tools
 
 ### LlamaIndex
