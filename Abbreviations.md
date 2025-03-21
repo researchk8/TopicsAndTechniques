@@ -12,3 +12,7 @@
 - Global Positioning System (GPS) 
 - Personally Identifiable Information (PHI)
 - Open Container Initiative (OCI)
+- Directed Acyclic Graphs (DAGs)
+- Context-free grammars (CFGs)
+- Parameter Efficient Fine-Tuning (PEFT)
+- Full-Model Fine-Tuning (FFT)

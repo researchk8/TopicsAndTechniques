@@ -29,7 +29,9 @@ Advanced RAG introduces specific improvements to overcome the limitations of Nai
 ### Modular RAG
 The modular RAG architecture advances beyond the former two RAG paradigms, offering enhanced adaptability and versatility. It incorporates diverse strategies for improving its components, such as adding a search module for similarity searches and refining the retriever through fine-tuning.
 
-## Tools
+## Tools and Frameworks
+
+### R2R
 
 ### LlamaIndex
 

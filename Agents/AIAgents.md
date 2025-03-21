@@ -29,6 +29,8 @@ https://github.com/crewAIInc/crewAI
 
 ### LangChain
 
+### Swarm
+
 ### Composio
 Integration Platform for AI Agents & LLMs
 https://composio.dev/

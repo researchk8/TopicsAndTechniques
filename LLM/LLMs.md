@@ -41,6 +41,10 @@ Recursive neural network models are designed to handle structured data like pars
 ### Hierarchical Models
 Finally, hierarchical models are designed to handle text at different levels of granularity, such as sentences, paragraphs, and documents. These models are used for tasks like document classification and topic modeling.
 
+## Frameworks
+
+### Langchain
+
 
 
 ## Finetuning methods
