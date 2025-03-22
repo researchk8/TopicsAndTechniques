@@ -1,5 +1,9 @@
 # RAG (Retrieval-Augmented Generation)
-RAG is a framework designed to enhance the performance of generative AI models by integrating external knowledge sources into the generative process. Here’s how it works:
+RAG is a framework designed to enhance the performance of generative AI models by integrating external knowledge sources into the generative process. 
+
+## Components
+
+Here’s how it works:
 
 Retrieval Component: This part fetches relevant information from external knowledge bases, databases, or other data repositories. These sources can include structured or unstructured data, such as documents, APIs, or even live data streams.
 
@@ -29,45 +33,52 @@ Advanced RAG introduces specific improvements to overcome the limitations of Nai
 ### Modular RAG
 The modular RAG architecture advances beyond the former two RAG paradigms, offering enhanced adaptability and versatility. It incorporates diverse strategies for improving its components, such as adding a search module for similarity searches and refining the retriever through fine-tuning.
 
-## Tools and Frameworks
+## Query types
 
-### R2R
+### Single-Hop Query
 
-### LlamaIndex
+A single-hop query is a straightforward question that requires retrieving information from a single document or source to provide a relevant answer. It involves only one step to arrive at the answer.
+
+Example (Specific Query):
+
+    “What year did Albert Einstein publish the theory of relativity?”
+
+This is a specific, fact-based question that can be answered with a single retrieval from a document containing that information.
+
+Example (Abstract Query):
+
+    “How did Einstein’s theory change our understanding of time and space?”
+
+While this query still refers to a single concept (the theory of relativity), it requires a more abstract or interpretive explanation from the source material.
 
 
-### RAGFlow
-RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.  
-https://github.com/infiniflow/ragflow
+### Multi-Hop Query
 
-### RAGatouille
-Easily use and train state of the art late-interaction retrieval methods (ColBERT) in any RAG pipeline. Designed for modularity and ease-of-use, backed by research.   
-https://github.com/AnswerDotAI/RAGatouille
+A multi-hop query involves multiple steps of reasoning, requiring information from two or more sources. The system must retrieve information from various documents and connect the dots to generate an accurate answer.
 
-### txtai
-txtai is a versatile AI-powered data platform that goes beyond traditional RAG frameworks.
-https://github.com/neuml/txtai
+Example (Specific Query):
 
-### STORM by stanford-oval
-STORM (Stanford Open-source RAG Model) is a research-oriented RAG framework developed by Stanford University. 
-https://github.com/stanford-oval/storm
+    “Which scientist influenced Einstein’s work on relativity, and what theory did they propose?”
 
-### LLM-App by pathwaycom
-LLM-App is a collection of templates and tools for building dynamic RAG applications. 
-https://github.com/pathwaycom/llm-app
+This requires the system to retrieve information about both the scientist who influenced Einstein and the specific theory, potentially from two different sources.
 
-### Others
-- https://github.com/pgvector/pgvector-python
-- https://github.com/fsndzomga/rag_nebius_postgresql ()
-- https://github.com/NirDiamant/RAG_TECHNIQUES ()
-- https://github.com/truefoundry/cognita
-- R2R
-- https://github.com/satellitecomponent/Neurite
-- https://github.com/RUC-NLPIR/FlashRAG
-- https://github.com/Thytu/Agentarium
-- AdvancedRAG
-- RAG4LLM: Gao
-- https://github.com/pinecone-io/canopy
+Example (Abstract Query):
+
+    “How have scientific theories on relativity evolved since Einstein’s original publication?”
+
+This abstract query requires the retrieval of multiple pieces of information over time and across different sources to form a broad, interpretive response about the evolution of the theory.
+
+
+### Specific vs. Abstract Queries in a RAG
+
+    Specific Query: Focuses on clear, fact-based retrieval. The goal in RAG is to retrieve highly relevant information from one or more documents that directly address the specific question.
+
+    Abstract Query: Requires a broader, more interpretive response. In RAG, abstract queries challenge the retrieval system to pull from documents that contain higher-level reasoning, explanations, or opinions, rather than simple facts.
+
+In both single-hop and multi-hop cases, the distinction between specific and abstract queries shapes the retrieval and generation process by determining whether the focus is on precision (specific) or on synthesizing broader ideas (abstract).
+
+Different types of queries requires different contexts to be synthesize. To solve this problem, Ragas uses a Knowledge Graph based approach to Test set Generation.
+
 
 ## Other RAG techniques
 
