@@ -24,6 +24,14 @@ Retrieval and generation: the actual RAG chain, which takes the user query at ru
 
 ## Paradigms
 
+### Vector RAG
+Traditional RAG or vector RAG runs a vector search to find the top N most relevant matches to a user's input. Those matches are passed to an LLM and the answer is returned.
+
+The query runs a vector search for the best matching documents in the Embeddings index. Those matches are then placed into a LLM prompt. The LLM prompt is executed and the answer is returned.
+
+### Graph RAG
+Graph RAG is a new method that uses knowledge or semantic graphs to generate a context. Instead of a vector search, graph path queries are run. Graph RAG in the context of this application supports the following methods to generate context.
+
 ### Naive RAG
 The Naive RAG research paradigm represents the earliest methodology, which gained prominence shortly after the widespread adoption of ChatGPT. The Naive RAG follows a traditional process that includes indexing, retrieval, and generation, which is also characterized as a “Retrieve-Read” framework.
 
@@ -102,14 +110,6 @@ Different types of queries requires different contexts to be synthesize. To solv
 
 ### RAG-Fusion
 
-## Benchmarks
-- Natural Questions (NQ)
-- HotpotQA (HPQA)
-- TriviaQA 
-- HaluEvalQA 
-- TruthfulQA
-- FreshQA
-- FinanceBench
 
 ## Research
 - https://arxiv.org/abs/2408.02545 (RAG for LLMs)

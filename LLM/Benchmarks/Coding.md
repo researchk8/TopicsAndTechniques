@@ -3,11 +3,11 @@
 ## Coding
 
 ### HumanEval
-‍HumanEval evaluates the code-generating abilities of LLMs. It focuses on testing models' capacity to understand programming-related tasks and generate syntactically correct and functionally accurate code according to the provided specifications. Each problem in HumanEval comes with unit tests that verify the correctness of the code. These test cases run the generated code with various inputs and check whether the outputs match the expected results–just like human programmers test their code! A successful model must pass all test cases to be correct for that specific task.  
+HumanEval evaluates the code-generating abilities of LLMs. It focuses on testing models' capacity to understand programming-related tasks and generate syntactically correct and functionally accurate code according to the provided specifications. Each problem in HumanEval comes with unit tests that verify the correctness of the code. These test cases run the generated code with various inputs and check whether the outputs match the expected results–just like human programmers test their code! A successful model must pass all test cases to be correct for that specific task.  
 https://arxiv.org/abs/2107.03374
 
 ### Mostly Basic Programming Problems (MBPP)
-‍Mostly Basic Programming Problems (MBPP) is designed to measure LLMs' ability to synthesize short Python programs from natural language descriptions. The dataset contains 974 tasks for entry-level programmers focusing on common programming concepts such as list manipulation, string operations, loops, conditionals, and basic algorithms. Each problem contains a task description, an example code solution, and test cases to verify the LLM's output.  
+Mostly Basic Programming Problems (MBPP) is designed to measure LLMs' ability to synthesize short Python programs from natural language descriptions. The dataset contains 974 tasks for entry-level programmers focusing on common programming concepts such as list manipulation, string operations, loops, conditionals, and basic algorithms. Each problem contains a task description, an example code solution, and test cases to verify the LLM's output.  
 https://arxiv.org/abs/2108.07732
 
 ### SWE-bench

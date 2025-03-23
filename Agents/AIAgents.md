@@ -20,47 +20,46 @@ Agents use knowledge to supplement their training data with domain expertise. Kn
 #### Vector Databases
 While any type of storage can act as a knowledge base, vector databases offer the best solution for retrieving relevant results from dense information quickly. 
 
+Here’s how vector databases are used with Agents:
 
-## Frameworks and Platforms
+1. Chunk the information: Break down the knowledge into smaller chunks to ensure our search query returns only relevant results.
 
-### CrewAI
-Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.   
-https://github.com/crewAIInc/crewAI
+2.  Load the knowledge base: Convert the chunks into embedding vectors and store them in a vector database.
 
-### LangChain
+3.  Search the knowledge base: When the user sends a message, we convert the input message into an embedding and “search” for nearest neighbors in the vector database.
 
-### Swarm
 
-### Composio
-Integration Platform for AI Agents & LLMs
-https://composio.dev/
+### Prompts
+We prompt Agents using description and instructions and a number of other settings. These settings are used to build the system prompt that is sent to the language model. Understanding how these prompts are created will help you build better Agents.
 
-### Agno
-Agno is a lightweight library for building multi-modal Agents.  
-https://github.com/agno-agi/agno
+The 2 key parameters are:
+- Description: A description that guides the overall behaviour of the agent. 
+- Instructions: A list of precise, task-specific instructions on how to achieve its goal.
 
-### Vercel AI SDK
+Description and instructions only provide a formatting benefit, we do not alter or abstract any information and you can always use system_prompt to provide your own system prompt.
 
-### Toolhouse
-Toolhouse is the complete cloud infrastructure to equip LLMs with actions and knowledge.  
-https://toolhouse.ai/
 
-### Others
-- EmbedChain
-- NeMo Guardrails
-- Verba: Verba is an open-source RAG chatbot driven by Weaviate. 
-- Phoenix
+### Memory
+Consists of short-term memory (allows the agent to recall its previous steps) and long-term memory (provides months-long history of conversations and interactions necessary for the agent to gain contextual knowledge.
 
-## AI Agent Toolkits
+### Embeddings
+An Embedder converts complex information into vector representations, allowing it to be stored in a vector database. By transforming data into embeddings, the embedder enables efficient searching and retrieval of contextually relevant information. This process enhances the responses of language models by providing them with the necessary business context, ensuring they are context-aware. 
 
-- The AI Agent Tools Catalog (https://github.com/GetStream/ai-agent-tools-catalog)
-- CrewAI ToolKits (https://github.com/crewAIInc/crewAI-tools/tree/main/crewai_tools/tools)
-- LangChain Tools (https://python.langchain.com/docs/integrations/tools/)
-- Agno Toolkits (https://docs.agno.com/tools/toolkits/toolkits)
-- Composio Tools/Apps (https://composio.dev/tools)
-- Vercel AI SDK Tools (https://sdk.vercel.ai/docs/ai-sdk-core/tools-and-tool-calling)
-- Agentic.so Toolkits (https://agentic.so/tools/bing)
-- Toolhouse: Tool Store (https://docs.toolhouse.ai/toolhouse/what-are-tools)
+See https://docs.agno.com/embedder/introduction
+
+### Storage
+Agents come with built-in memory but it only lasts while the session is active. To continue conversations across sessions, we store Agent sessions in a database like PostgreSQL.
+
+Storage is a necessary component when building user facing AI products as any production application will require users to be able to “continue” their conversation with the Agent.
+
+See https://docs.agno.com/storage/introduction
+
+### Reasoning
+Reasoning is an experimental feature that enables an Agent to think through a problem step-by-step before jumping into a response. The Agent works through different ideas, validating and correcting as needed. Once it reaches a final answer, it will validate and provide a response.
+
+
+## Persona
+- https://github.com/microsoft/TinyTroupe (TinyTroupe is an experimental Python library that allows the simulation of people with specific personalities, interests, and goals.)
 
 # Resources
 - https://docs.agno.com/agents
@@ -70,3 +69,9 @@ https://toolhouse.ai/
 - https://cobusgreyling.medium.com/ai-agent-computer-interface-aci-2ff4b66cd008
 - https://github.com/arunpshankar/react-from-scratch
 - https://medium.com/google-cloud/building-react-agents-from-scratch-a-hands-on-guide-using-gemini-ffe4621d90ae
+
+
+## Also interesting
+- https://getstream.io/blog/python-assistant/
+- https://getstream.io/blog/agentic-ai-rag/
+- https://github.com/precize/OWASP-Agentic-AI

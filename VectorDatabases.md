@@ -31,4 +31,3 @@ An open-source vector search engine with machine learning models for semantic se
 
 
 # Resources
-
