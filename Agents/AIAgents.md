@@ -132,7 +132,9 @@ it will validate and provide a response.
 ### Output parsers
 Output Parsers are responsible for taking the output of an LLM and parsing into more structured format.
 
-# Agentic Applications
+## Tasks
+
+### Agentic Applications
 
 When an LLM is used within an application, it is often used to make decisions, take actions, and/or interact with the
 world. This is the core definition of an agentic application.
@@ -149,6 +151,27 @@ application:
 - Orchestration: A hierarchical structure of LLMs is used to orchestrate lower-level actions and LLMs.
 - Reflection: The LLM is used to reflect and validate outputs of previous steps or LLM calls, which can be used to guide
   the application to the next appropriate step or state.
+
+### Questioning
+- QA
+- Choice question
+- yes/no question
+- multiple-choice questions
+- commonsense knowledge QA
+
+### Coding
+
+### Tool Usage
+- Resolve instructions
+
+### Chat
+
+### Reasoning
+- Numerical Reasoning 
+
+### Math
+
+### llm evaluation
 
 ## Persona
 

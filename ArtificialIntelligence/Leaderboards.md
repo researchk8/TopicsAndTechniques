@@ -14,3 +14,6 @@ https://chat.lmsys.org/?leaderboard
 
 ## Open LLM Leaderboard
 https://hf.co/spaces/HuggingFaceH4/open_llm_leaderboard
+
+## LLM-AggreFact Leaderboard
+https://llm-aggrefact.github.io/

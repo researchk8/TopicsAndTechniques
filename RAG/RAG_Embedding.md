@@ -10,7 +10,8 @@ responses.
 
 ## Components
 
-Converting text into embedding is a time-consuming process. To avoid that, we have vector databases explicitly designed for efficient storage and retrieval of vector embeddings.
+Converting text into embedding is a time-consuming process. To avoid that, we have vector databases explicitly designed
+for efficient storage and retrieval of vector embeddings.
 
 ### Vectorize
 
@@ -27,7 +28,8 @@ with all vectors for Approximate Nearest Neighbor (ANN) indexing.
 
 ### index configuration
 
-#### Approximate Nearest Neighbor (ANN)  
+#### Approximate Nearest Neighbor (ANN)
+
 for storing vector embeddings.
 
 ## Vector Embedding
@@ -38,44 +40,20 @@ text-embedding-ada-002.
 
 ## Hypothetical Document Embedding (HyDE)
 
-However, there’s a drawback to this approach as it may not consistently produce good results. For instance, if the subject being discussed is entirely unfamiliar to the language model, this method is not effective and could lead to increased instances of generating incorrect information.
+However, there’s a drawback to this approach as it may not consistently produce good results. For instance, if the
+subject being discussed is entirely unfamiliar to the language model, this method is not effective and could lead to
+increased instances of generating incorrect information.
 
 ## Models
+
 Making it possible to build retrieval augmented generation (RAG) applications that combine text prompts with existing
 documents or other data.
-
-Samples:
-- nomic-embed-text (Ollama)
-- sentence-transformers (Ollama)
-- mistral-text-embeddings (Ollama)
-- text-embedding-3-large (OpenAI)
-- text-ada-002 (OpenAI)
-
-## Embedding Tools
-
-- OpenAI
-- Gemini
-- Ollama
-- Voyage AI
-- Azure OpenAI
-- Mistral
-- Fireworks
-- Together
-- HuggingFace
-- Qdrant FastEmbed
-- IngestAI / embedditor https://github.com/IngestAI/embedditor
 
 ## Embedding Databases
 
 Embeddings databases are the engine that delivers semantic search. Data is transformed into embeddings vectors where
 similar concepts will produce similar vectors. Indexes both large and small are built with these vectors. The indexes
 are used to find results that have the same meaning, not necessarily the same keywords.
-
-### txtai
-
-txtai is an all-in-one embeddings database for semantic search, LLM orchestration and language model workflows.
-https://neuml.github.io/txtai/
-
 
 # Resources
 
