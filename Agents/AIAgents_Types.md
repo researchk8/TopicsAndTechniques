@@ -31,12 +31,14 @@ The Validator Agents play a crucial role in ensuring the accuracy and quality of
 
 See https://docs.cognify.cx/system-architecture/agents/validator-agents
 
-#### Summarize Validator: 
+#### Summarize Validator
 Validates summary quality. The Summarize Validator checks the quality of summaries, ensuring they accurately and concisely convey the intended information.
 
-#### Refiner Validator: 
+#### Refiner Validator
 Enhances research article drafts. The Refiner Validator focuses on improving research article drafts, enhancing their clarity and coherence. 
 
-#### Sanitize Validator: 
+#### Sanitize Validator
 Ensures complete PHI removal. The Sanitize Validator is dedicated to safeguarding sensitive data by meticulously removing all Personally Identifiable Information (PHI) from documents, ensuring compliance with data protection standards.
 
+# Resources
+- https://python.langchain.com/v0.1/docs/modules/agents/agent_types/
