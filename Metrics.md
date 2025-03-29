@@ -44,6 +44,11 @@ reliability, interpretability, and relevance. Here are five key principles we fo
 These principles serve as a foundation for creating metrics that are not only effective but also practical and
 meaningful in evaluating AI applications.
 
+## Some metrics
+- ROUGE
+- BLEU
+- BLURT
+
 # Resources
 
 - See https://docs.ragas.io/en/stable/concepts/metrics/overview/
