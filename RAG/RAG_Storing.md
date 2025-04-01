@@ -1,5 +1,7 @@
 # Storing
 
+Storage is a necessary component when building user-facing AI products. While agents come with built-in memory, it only lasts during the active session. For persistent conversations across sessions, Agno provides storage options that work with individual agents, multi-agent teams and complex workflows.
+
 ## Vector stores
 
 One of the most common ways to store and search over unstructured data is to embed it and store the resulting embedding

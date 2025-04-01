@@ -24,7 +24,9 @@ See:
 - Bespoke-Minicheck
 
 ## Reasoning
-- qwq
+
+### qwq
+QwQ is the reasoning model of the Qwen series. Compared with conventional instruction-tuned models, QwQ, which is capable of thinking and reasoning, can achieve significantly enhanced performance in downstream tasks, especially hard problems.
 
 ## Code
 - codellama

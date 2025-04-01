@@ -36,8 +36,31 @@ Images can be used as the result of both tools and resources.
 The Context object gives your tools and resources access to MCP capabilities. To use it, add a parameter annotated with fastmcp.Context:
 
 
+## Reference servers
+
+* AWS KB Retrieval - Retrieval from AWS Knowledge Base using Bedrock Agent Runtime
+* Brave Search - Web and local search using Brave's Search API
+* EverArt - AI image generation using various models
+* Everything - Reference / test server with prompts, resources, and tools
+* Fetch - Web content fetching and conversion for efficient LLM usage
+* Filesystem - Secure file operations with configurable access controls
+* Git - Tools to read, search, and manipulate Git repositories
+* GitHub - Repository management, file operations, and GitHub API integration
+* GitLab - GitLab API, enabling project management
+* Google Drive - File access and search capabilities for Google Drive
+* Google Maps - Location services, directions, and place details
+* Memory - Knowledge graph-based persistent memory system
+* PostgreSQL - Read-only database access with schema inspection
+* Puppeteer - Browser automation and web scraping
+* Redis - Interact with Redis key-value stores
+* Sentry - Retrieving and analyzing issues from Sentry.io
+* Sequential Thinking - Dynamic and reflective problem-solving through thought sequences
+* Slack - Channel management and messaging capabilities
+* Sqlite - Database interaction and business intelligence capabilities
+* Time - Time and timezone conversion capabilities
 
 
 # Resources
+- https://github.com/modelcontextprotocol/servers
 - https://github.com/jlowin/fastmcp
 - https://github.com/modelcontextprotocol/python-sdk
