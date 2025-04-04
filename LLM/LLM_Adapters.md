@@ -1,6 +1,14 @@
 # LLM Adapters
 Finetuning LLMs on a corpus of legal documents can significantly improve the model's performance.
 
+## Methods for Parameter Efficient Fine-Tuning (PEFT)
+- Prompt
+- Repara
+- Series
+- Parallel
+- LoRa
+- Prefi-Tuning
+
 ## Adapters
 Prefix Tuning: Prefix-Tuning: Optimizing Continuous Prompts for Generation, P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks
 P-Tuning: GPT Understands, Too

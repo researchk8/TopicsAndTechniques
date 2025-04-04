@@ -49,6 +49,12 @@ increased instances of generating incorrect information.
 Making it possible to build retrieval augmented generation (RAG) applications that combine text prompts with existing
 documents or other data.
 
+Samples:
+- Word2Vec
+- GTE-Base
+- RoBERTa
+- MPNet V2
+
 ## Embedding Databases
 
 Embeddings databases are the engine that delivers semantic search. Data is transformed into embeddings vectors where

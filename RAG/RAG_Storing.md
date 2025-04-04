@@ -1,6 +1,8 @@
 # Storing
 
-Storage is a necessary component when building user-facing AI products. While agents come with built-in memory, it only lasts during the active session. For persistent conversations across sessions, Agno provides storage options that work with individual agents, multi-agent teams and complex workflows.
+Storage is a necessary component when building user-facing AI products. While agents come with built-in memory, it only
+lasts during the active session. For persistent conversations across sessions, Agno provides storage options that work
+with individual agents, multi-agent teams and complex workflows.
 
 ## Vector stores
 
@@ -22,3 +24,23 @@ Maximal marginal relevance optimizes for similarity to query and diversity among
 ### Hybrid Search
 
 ### Multi-Vector-Search
+
+## Articles
+
+### Times and Vector
+
+- https://www.pinecone.io/learn/time-series-vectors/
+- https://www.datanami.com/2023/09/25/timescaledb-is-a-vector-database-now-too/
+- https://levelup.gitconnected.com/geospatial-vector-search-building-an-ai-powered-geo-aware-news-search-6cbda8919465
+- BTW: https://www.timescale.com/learn/vector-search-vs-semantic-search
+- https://siliconangle.com/2023/09/25/time-series-database-timescale-adds-vector-search-ai/
+
+### Others
+
+- Vector Search in DBs
+- https://clickhouse.com/blog/vector-search-clickhouse-p1 and https://clickhouse.com/blog/vector-search-clickhouse-p2
+- https://solr.apache.org/guide/solr/latest/query-guide/dense-vector-search.html
+- https://www.elastic.co/de/what-is/vector-search
+- https://www.elastic.co/de/enterprise-search/vector-search
+- https://github.com/pgvector/pgvector
+- https://www.timescale.com/blog/postgresql-as-a-vector-database-create-store-and-query-openai-embeddings-with-pgvector/

@@ -16,6 +16,10 @@ The resulting vector embedding arrays can then be stored in a database, which wi
 - mistral-text-embeddings (Ollama)
 - text-embedding-3-large (OpenAI)
 - text-ada-002 (OpenAI)
+- Word2Vec
+- GTE-Base
+- RoBERTa
+- MPNet V2
 
 See:
 - https://ollama.com/blog/embedding-models
