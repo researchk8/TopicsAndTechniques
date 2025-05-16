@@ -1,4 +1,7 @@
 ## LLMs
+LLMs are designed to be scalable and versatile, with the choice of architecture depending on the specific objectives of the model.
+
+While GPT models are focused on language tasks, LLMs encompass a more comprehensive range of applications, including data analytics and other non-language tasks.
 
 ## Components
 
@@ -15,6 +18,7 @@ LLMs are based on transformer architectures. The underlying transformer is made 
 - Bidirectional Encoder Representations from Transformers (BERT)
 - Generative Pre-trained Transformer (GPT)
 
+GPT (Generative Pre-trained Transformer) models are specifically designed for text generation, text completion, and various language-related tasks. 
 
 #### Dense Transformer
 
@@ -44,6 +48,12 @@ making training faster.
 A typical MoE for a batch size of 1 can undergo enough latency just to read the active parameters. In contrast, a
 Hybrid-MoE can be a lot more efficient than equivalent vanilla MoEs or a Dense transformer. Also, Hybrid-MoEs are
 capable of handling larger batch sizes for faster inference as well.
+
+### RNNs (Recurrent Neural Networks) Architecture
+
+
+### CNNs (Convolutional Neural Networks) Architecture
+
 
 ## Types
 

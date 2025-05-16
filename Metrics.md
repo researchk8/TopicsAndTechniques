@@ -45,6 +45,40 @@ These principles serve as a foundation for creating metrics that are not only ef
 meaningful in evaluating AI applications.
 
 ## Some metrics
+
+G-Eval
+DAG (deep acyclic graph)
+RAG metrics:
+
+    Answer Relevancy
+    Faithfulness
+    Contextual Recall
+    Contextual Precision
+    Contextual Relevancy
+    RAGAS
+
+Agentic metrics:
+
+    Task Completion
+    Tool Correctness
+
+Others:
+
+    Hallucination
+    Summarization
+    Bias
+    Toxicity
+
+Conversational metrics:
+
+    Knowledge Retention
+    Conversation Completeness
+    Conversation Relevancy
+    Role Adherence
+
+
+
+### Metrics implementations
 - ROUGE
 - BLEU
 - BLURT
