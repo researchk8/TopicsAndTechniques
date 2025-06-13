@@ -34,7 +34,15 @@ task requirements:
 
 ## Prompt content types
 
-Prompts can include one or more of the following types of content:
+Prompts can include one or more of the following types of content. A prompt can contain any of the following components:
+
+Instruction - a specific task or instruction you want the model to perform
+
+Context - can involve external information or additional context that can steer the model to better responses
+
+Input Data - is the input or question that we are interested to find a response for
+
+Output Indicator - indicates the type or format of the output.
 
 ### Input (required)
 
@@ -69,6 +77,8 @@ Techniques for bypassing restrictions on GPT models.
 
 Leaked prompts and system information from GPT agents.
 
+## Adversarial Prompting
+
 ## Prompt Injection
 
 Exploiting or defending against prompt injections.
@@ -77,8 +87,18 @@ Exploiting or defending against prompt injections.
 
 Repositories dedicated to securing prompts and mitigating vulnerabilities.
 
+## Prompt Engineering
+
+Prompt engineering is a relatively new discipline for developing and optimizing prompts to efficiently use language
+models (LMs) for a wide variety of applications and research topics. Prompt engineering skills help to better understand
+the capabilities and limitations of large language models (LLMs). Researchers use prompt engineering to improve the
+capacity of LLMs on a wide range of common and complex tasks such as question answering and arithmetic reasoning.
+Developers use prompt engineering to design robust and effective prompting techniques that interface with LLMs and other
+tools.
+
 # Resources
 
+- https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/guides/prompts-intro.md
 - https://github.com/trigaten/Learn_Prompting
 - https://ai.google.dev/gemini-api/docs/prompting-intro
 - https://docs.smith.langchain.com/prompt_engineering/concepts#prompt-canvas
@@ -91,6 +111,7 @@ Repositories dedicated to securing prompts and mitigating vulnerabilities.
 - https://learn.microsoft.com/en-us/ai-builder/prompts-overview
 - https://github.com/VILA-Lab/ATLAS
 - https://writings.stephenwolfram.com/2023/06/prompts-for-work-play-launching-the-wolfram-prompt-repository/
+- https://github.com/rpidanny/llm-prompt-templates
 
 ## Prompt Libraries
 

@@ -50,8 +50,12 @@ See:
 ### Program-Aided Language Models
 
 ### ReAct
+Yao et al., 2022 introduced a framework named ReAct where LLMs are used to generate both reasoning traces and task-specific actions in an interleaved manner.
+https://www.promptingguide.ai/techniques/react
 
 ### Reflexion
+Reflexion is a framework to reinforce language-based agents through linguistic feedback. According to Shinn et al. (2023), "Reflexion is a new paradigm for ‘verbal‘ reinforcement that parameterizes a policy as an agent’s memory encoding paired with a choice of LLM parameters."
+https://www.promptingguide.ai/techniques/reflexion
 
 ### Multimodal CoT
 

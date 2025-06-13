@@ -85,6 +85,11 @@ structure of a sentence. These models are useful for tasks like sentiment analys
 Finally, hierarchical models are designed to handle text at different levels of granularity, such as sentences,
 paragraphs, and documents. These models are used for tasks like document classification and topic modeling.
 
+
+### Program-Aided Language Models
+
+Gao et al., (2022) presents a method that uses LLMs to read natural language problems and generate programs as the intermediate reasoning steps. Coined, program-aided language models (PAL), differ from chain-of-thought prompting in that instead of using free-form text to obtain a solution it offloads the solution step to a programmatic runtime such as a Python interpreter.
+
 ## Finetuning methods
 
 ### Research

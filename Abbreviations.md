@@ -20,3 +20,4 @@
 - Graph Query Language (GQL)
 - Technology Compatibility Kit (TCK)
 - LangChain Expression Language (LCEL)
+- Supervised Fine-Tuning (SFT)
